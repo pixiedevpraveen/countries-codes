@@ -1,0 +1,11 @@
+.git
+.github
+.vscode
+index.ts
+test
+package-lock.json
+tsconfig.json
+node_modules
+size.sh
+bun.lock
+build.ts

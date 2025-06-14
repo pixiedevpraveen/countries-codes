@@ -1,0 +1,25 @@
+{
+  "name": "countries-codes-enar",
+  "scripts": {
+    "dev": "bun run --watch index.ts",
+    "build": "bun run build.ts && tsc --emitDeclarationOnly --declarationMap --declaration  --outDir ./dist index.ts"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "publisher": "pixiedev",
+  "description": "",
+  "author": "Praveen Yadav",
+  "license": "MIT",
+  "homepage": "https://github.com/pixiedevpraveen/countries-codes-enar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixiedevpraveen/countries-codes-enar.git"
+  },
+  "bugs": "https://github.com/pixiedevpraveen/countries-codes-enar/issues",
+  "keywords": [],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {}
+}
