@@ -33,7 +33,7 @@ yarn add countries-codes-enar
 pnpm add countries-codes-enar
 
 # CDN
-https://unpkg.com/countries-codes-enar@1.0.0/build/index.js
+https://unpkg.com/countries-codes-enar@1.0.1/build/index.js
 ```
 
 ---

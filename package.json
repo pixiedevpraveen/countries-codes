@@ -5,7 +5,7 @@
     "build": "bun run build.ts && tsc --emitDeclarationOnly --declarationMap --declaration  --outDir ./dist index.ts"
   },
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "pixiedev",
   "description": "",
   "author": "Praveen Yadav",
@@ -21,5 +21,27 @@
     "@types/bun": "latest",
     "typescript": "^5.0.0"
   },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {}
 }
